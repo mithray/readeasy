@@ -1,3 +1,3 @@
-const readability = require('./lib/readability.js')
+const readeasy = require('./lib/readeasy.js')
 
-module.exports = readability
+module.exports = readeasy

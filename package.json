@@ -16,5 +16,8 @@
     "readable"
   ],
   "author": "Raymond Smith <raymond@lucentmonkey.com> (alchmy.github.io/alchmy-cli)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "readability-meter": "^1.0.0"
+  }
 }
