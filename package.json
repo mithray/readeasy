@@ -1,6 +1,6 @@
 {
   "name": "readeasy",
-  "version": "0.0.1",
+  "version": "0.0.101",
   "description": "Easily test the readability of a text and suggest areas of improvement.",
   "main": "index.js",
   "directories": {
@@ -18,6 +18,7 @@
   "author": "Raymond Smith <raymond@lucentmonkey.com> (alchmy.github.io/alchmy-cli)",
   "license": "MIT",
   "dependencies": {
-    "readability-meter": "^1.0.0"
+    "readability-meter": "^1.0.0",
+    "syllable": "^4.0.0"
   }
 }
