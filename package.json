@@ -1,6 +1,6 @@
 {
   "name": "readeasy",
-  "version": "0.0.102",
+  "version": "0.0.104",
   "description": "Easily test the readability of a text and suggest areas of improvement.",
   "main": "index.js",
   "directories": {
@@ -20,5 +20,14 @@
   "dependencies": {
     "readability-meter": "^1.0.0",
     "syllable": "^4.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mithrayls/readeasy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mithrayls/readeasy/issues"
+  },
+  "homepage": "https://github.com/mithrayls/readeasy#readme"
 }
