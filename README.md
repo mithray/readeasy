@@ -2,7 +2,13 @@
 
 ## Introduction
 
-This is to test the readability of text. Right now it only works for entire blocks of text. Soon I will fix it to divide by sentences so that it can provide hints about specific sentences that need might need simplifying. `readeasy` is a function that accepts a text as input and it returns an object with detailed information about the readability of the text.
+This is to test the readability of text. Right now it only works for entire blocks of text. Soon I will fix it to divide by sentences so that it can provide hints about specific sentences that need might need simplifying. `readeasy` is a function that accepts a text as input and it returns an object with detailed information about the readability of the text. 
+
+## Name
+
+I searched for a name available on npm, which described the project and was easy enough to remember. Readability was the obvious choice, but that name is taken by the mozilla reading addon. I found that readeasy was available on npm, and thought this was brilliant due to how close it sounds to a [speakeasy](https://en.wikipedia.org/wiki/Speakeasy), which were drinking establishments where individuals were forced to speak softly in order to not offend the authorities with the awful practice of drinking.
+
+Lacking the inordinate reverence for authority, whilst simultaneously admiring both the apt description and the sonorous sound of readeasy, I thought it to be a most appropriate name for this project.
 
 ## Contents
 
