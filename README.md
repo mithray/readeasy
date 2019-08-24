@@ -70,7 +70,7 @@ The below is a simplifed output of a test paragraph. Notice the heirarchical str
 
 You can get more fine grained information by subsetting the object such as in the examples below.
 
-```
+```javascript
 const readeasy = require('readeasy')
 
 let text = "Always use a shorter word where possible!"
