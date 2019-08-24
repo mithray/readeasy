@@ -1,0 +1,20 @@
+{
+  "name": "readeasy",
+  "version": "0.0.1",
+  "description": "Easily test the readability of a text and suggest areas of improvement.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flesch-kincaid",
+    "readability",
+    "text",
+    "readable"
+  ],
+  "author": "Raymond Smith <raymond@lucentmonkey.com> (alchmy.github.io/alchmy-cli)",
+  "license": "MIT"
+}
