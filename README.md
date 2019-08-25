@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This tests the readability of a text, and will soon also provide suggestions for improvement. It heirarchically calculates the readability of an article of a text as a whole, then separate paragraphs, then sentences, then words. When checking the readability of words it counts the syllables in a word and if the word has more syllables than specificed threshold it looks up the dictionary.com api to check for synonyms that are shorter. 
+Please open an issue on Github if you want to ask me more about this. I really would like to know if others like the idea of this package and find it useful. This tests the readability of a text, and will soon also provide suggestions for improvement. It heirarchically calculates the readability of an article of a text as a whole, then separate paragraphs, then sentences, then words. When checking the readability of words it counts the syllables in a word and if the word has more syllables than specificed threshold it looks up the dictionary.com api to check for synonyms that are shorter. 
 
 ## Contents
 

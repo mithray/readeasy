@@ -1,6 +1,6 @@
 {
   "name": "readeasy",
-  "version": "0.0.108",
+  "version": "0.0.109",
   "description": "Easily test the readability of a text and suggest areas of improvement.",
   "main": "index.js",
   "directories": {
