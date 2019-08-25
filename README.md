@@ -2,20 +2,22 @@
 
 ## Introduction
 
-This is to test the readability of text. Right now it only works for entire blocks of text. Soon I will fix it to divide by sentences so that it can provide hints about specific sentences that need might need simplifying. `readeasy` is a function that accepts a text as input and it returns an object with detailed information about the readability of the text. 
+This tests the readability of a text, and will soon also provide suggestions for improvement. It heirarchically calculates the readability of an article of a text as a whole, then separate paragraphs, then sentences, then words. When checking the readability of words it counts the syllables in a word and if the word has more syllables than specificed threshold it looks up the dictionary.com api to check for synonyms that are shorter. 
+
+## Contents
+
+* [Introduction](#introduction)
+* [Name](#name)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Understanding](#understanding)
+* [Future](#future)
 
 ## Name
 
 I searched for a name available on npm, which described the project and was easy enough to remember. Readability was the obvious choice, but that name is taken by the mozilla reading addon. I found that readeasy was available on npm, and thought this was brilliant due to how close it sounds to a [speakeasy](https://en.wikipedia.org/wiki/Speakeasy), which were drinking establishments where individuals were forced to speak softly in order to not offend the authorities with the awful practice of drinking.
 
 Lacking the inordinate reverence for authority, whilst simultaneously admiring both the apt description and the sonorous sound of readeasy, I thought it to be a most appropriate name for this project.
-
-## Contents
-
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [Usage](#usage)
-* [understanding](#understanding)
 
 ## Installation
 
@@ -94,3 +96,11 @@ console.log(readability.paragraphs[0].sentences[2].schoolLevel)
 // The number of syllables of the fourth word of the second sentence of the first paragraph
 console.log(readability.paragraphs[0].sentences[1].words[3].syllables)
 ```
+
+## Future
+
+In the future I plan to 
+
+* Implement syntax parsing using SyntaxNet so that grammatical suggestions can also be made.
+* Integrate vocab statistics to get more intelligent data about word usage and make smarter vocabulary suggestions.
+* Improve readability metrics.
